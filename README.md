@@ -1,4 +1,4 @@
-# 12FactorApp
+# 12-Factor App
 
 The 12 Factor App ia a methodology to for building software as a service app that:
 
@@ -12,18 +12,18 @@ The twelve-factor methodology can be applied to apps written in any programming 
 
 Following are the 12 Factors
 
-  1.  Codebase: 
-  2.  Dependencies:
-  3.  Config:
-  4.  Backing Services:
-  5.  Build, release, run:
-  6.  Processes
-  7.  Port Binding:
-  8.  Concurrecy
-  9.  Disposability
-  10.  Dev / Prod parity
-  11.  Logs
-  12.  Admin processes
+  1.  Codebase: One codebase tracked in revision control, many deployments
+  2.  Dependencies: Explicitly declare and isolate dependencies
+  3.  Config: Store config in the environment
+  4.  Backing Services: Treat backing services as attached resources
+  5.  Build, release, run: Strictly separate build and run stages
+  6.  Processes: Execute the app as one or more stateless processes
+  7.  Port Binding: Export services via port binding
+  8.  Concurrecy: Scale out via the process model
+  9.  Disposability: Maximize robustness with fast startup and graceful shutdown
+  10.  Dev / Prod parity: Keep development, staging, and production as similar as possible
+  11.  Logs: Treat logs as event streams
+  12.  Admin processes: Run admin/management tasks as one-off processes
 
 
 
